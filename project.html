@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jiangxi Normal University</title>
+	<link rel="shortcut icon" type="image" href="Picture/logo1.png">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="library.js"></script>
+	<script src="script.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<img src="Picture/logo3.png" width="150px">
+			<div class="nav-links" id="navLinks" >
+
+				<i class="fa fa-times" onclick="hideMenu()" ></i>
+				<ul>
+					<li><a href="index.html" >HOME</a></li>
+					<li><a href="project.html">PROJECT</a></li>
+				     <li><a href="about.html">ABOUT</a></li>
+				     <li><a href="course.html">COURSE</a></li>
+				     <li><a href="blog.html">BLOG</a></li>
+					 <li><a href="login.html" target="_blank"> Sign In</a></li>
+				      <li><a href="contact.html">CONTACT</a></li>
+     
+				</ul>
+				
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<h1>University Management System</h1>
+
+		
+	</section>
+
+	<!-------------- Procect ---------->
+
+	<section class="project">
+		<div class="row">
+			<div class="project-col">
+				
+				<h1>HI, I'M SHAMIMA AKTAR</h1>
+				<p>Me Shamima I am 4th year student of undergraduate from Jiangxi Normal University. My major is computer science and engineering.
+				I am Inquisitive, energetic computer science specialist skilled in programming, with a strong foundation in math, logic, and cross-platform coding.</p>
+				<a href="https://shamimaaktar.blogspot.com/" class="hero-btn red-btn">MY PERSONAL WEBSITE</a>
+				<div class="project-right">
+
+				<h3>University Management System Based on Web FINAL PROJECT</h3>
+				<div>
+					<span>Name : </span>
+					<span>Aktar Mst Shamima</span>
+				</div>
+				<div>
+					<span>Student ID :  </span>
+					<span>20186115032</span>
+				</div>
+				<div>
+					<span>Class Name :</span>
+					<span>"2018 CSE"</span>
+				</div>
+				<div>
+					<span>Tutor's Name :</span>
+					<span>Liu Jianming</span>
+				</div>
+
+				
+			</div>
+
+				
+		</div>
+			
+			<div class="project-col">
+				<img src="Picture/me.jpg">
+				
+			</div>
+			
+		</div>
+		
+	</section>
+	<!-------------- library ---------->
+
+
+	<section class="library">
+		<!--<img src="Picture/logo4.png">-->
+		<h1>Jiangxi Normal University Library</h1>
+		<div class="row">
+			<div class="library-col-1">
+			<div class="bookadd-box">
+					<h3>ADD A BOOK</h3>
+					<form class="add-form">
+						<input type="text"  id="title" placeholder="Enter the Title Name">
+						<input type="text"  id="author" placeholder="Enter Author Name">
+						<input/ type="text"  id="isbn"  placeholder="Enter ISBN">
+						<input type="text"  id="year" placeholder="Enter year">
+						<input type="button" onclick = "handleButtonClick()"  id="addButton" value="Add Book">
+						<input type="button" onclick = "clearButtonClick()"  id="clearButton" value="Clear">
+					</form>
+					
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			
+			<div class="library-col">
+				<div class="showbook-box">
+				<table id="book-table">
+					<h3>SHOW BOOKS</h3>
+					<thead>
+					<tr>
+						<th>TITLE</th>
+						<th>AUTHOR</th>
+						<th>ISBN</th>
+						<th>YEAR</th>
+						<th>DELETE</th>
+						<th>UPDATE</th>
+					</tr>
+					</thead>
+					<tbody id="booklist">
+
+					
+					</tbody>
+					
+				</table>
+				</div>
+			</div>
+		</div>
+
+
+	</section>
+
+	<!-------------- Calclutor ---------->
+		<section class="Calculator">
+
+			<h1>Calculator Project</h1>
+
+		<div class="row">
+
+		<div class="Calculator-col">
+			<form class="Calculator1" name="clac">
+			<input class="value" type="text" name="txt" readonly="">
+
+			
+
+			<span class="num clear" onclick="document.clac.txt.value =''">C</span>
+			<span class="num" onclick="document.clac.txt.value +='/'">/</span>
+			<span class="num" onclick="document.clac.txt.value +='*'">*</span>
+			<span class="num" onclick="document.clac.txt.value +='7'">7</span>
+			<span class="num" onclick="document.clac.txt.value +='8'">8</span>
+			<span class="num" onclick="document.clac.txt.value +='9'">9</span>
+			<span class="num" onclick="document.clac.txt.value +='-'">-</span>
+			<span class="num" onclick="document.clac.txt.value +='4'">4</span>
+			<span class="num" onclick="document.clac.txt.value +='5'">5</span>
+			<span class="num" onclick="document.clac.txt.value +='6'">6</span>
+			<span class="num plus" onclick="document.clac.txt.value +='+'">+</span>
+			<span class="num" onclick="document.clac.txt.value +='3'">3</span>
+			<span class="num" onclick="document.clac.txt.value +='2'">2</span>
+			<span class="num" onclick="document.clac.txt.value +='1'">1</span>
+			<span class="num" onclick="document.clac.txt.value +='0'">0</span>
+			<span class="num" onclick="document.clac.txt.value +='00'">00</span>
+			<span class="num" onclick="document.clac.txt.value +='.'">.</span>
+			<span class="num equal" onclick="document.clac.txt.value = eval(clac.txt.value)">=</span>
+
+			</form>
+		</div>
+
+		</div>
+
+			
+		</section>
+
+
+	<!-------------- gallery ---------->
+
+	<section class="gallery">
+		<h1>Gallery Project</h1>
+		<p>Jiangxi Normal University is very beatiful.Here has some of picture of jiangxi normal University at our gallery.</p>
+		
+		</br>		
+
+					
+					<div class="owl-carousel owl-theme">
+					
+					 <div class="item"><img src="Picture\26.jpg"> </div>	
+					<div class="item"><img src="Picture\19.jpg"></div>
+				    <div class="item"><img src="Picture\14.jpg"></div>
+				    <div class="item"><img src="Picture\17.jpg"></div>
+				    <div class="item"><img src="Picture\24.png"></div>
+				    <div class="item"><img src="Picture\10.jpg"> </div>
+				    <div class="item"><img src="Picture\20.jpg"></div>
+				    
+
+				    
+				    
+
+				     </div>
+										
+
+		<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+
+		<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+		<script type="text/javascript">
+
+		$('.owl-carousel').owlCarousel({
+	    loop:true,
+	    autoplay:true,
+	    autoplayTimeout:2000,
+	    autoplayHoverPause:true,
+	    margin:10,
+	    nav:true,
+
+	    dots: false,
+
+	    responsive:{
+	        0:{
+	            items:1
+	        },
+	        600:{
+	            items:1
+	        },
+	        1000:{
+	            items:1
+	        }
+	    }
+	})
+
+		</script>
+		
+	</section>
+
+
+	
+
+	
+
+	<!-------------- fotter ---------->
+		
+		<section class="fotter">
+			<h4>About Us</h4>
+			<p>It's My  final  Project. I  made  it  by  using  HTML5, CSS, JavaScript, MySQL and PHP</p>
+
+			<div class="icons">
+				<a href="https://www.facebook.com/profile.php?id=100005169555025"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/Shamima82080529"><i class="fa fa-twitter" ></i></a>
+				<a href="https://www.instagram.com/shamima1525"><i class="fa fa-instagram" ></i></a>
+				<a href="https://www.linkedin.com/in/shamima-aktar-a992691ba"><i class="fa fa-linkedin" ></i></a>
+				
+			</div>
+			<p>Made With <i class="fa fa-heart-o" ></i> By Wang Fang fei </p>
+			
+			
+		</section>
+	
+
+
+
+	
+	
+
+
+
+
+</body>
+</html>
+
+
