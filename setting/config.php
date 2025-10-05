@@ -6,8 +6,8 @@ class UniversityManagement
 {
 	public $server = "localhost";
 	public $username = "root";
-	public $password = "";
-	public $dbname = "jxnu";
+	public $password = 1234;
+	public $dbname = "university_management";
 	public $connectdb;
 	
 	function __construct()

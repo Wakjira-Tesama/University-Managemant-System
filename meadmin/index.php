@@ -47,7 +47,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Jiangxi Normal University</title>
+<title>ODA Special Boarding School</title>
 
 <link rel="shortcut icon" type="image" href="/UniversityManagementSystem/Picture/logo1.png">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -80,7 +80,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 														<h2 class="inner-tittle page">Login</h2>
 													
 													    <div class="login">
-															<h3 class="inner-tittle t-inner">JXNU Admin Login</h3>
+															<h3 class="inner-tittle t-inner">ODA Admin Login</h3>
 														
 																<div class="buttons login">
 																			<ul>
@@ -117,7 +117,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												<div class="error-btn">
 															<a class="read fourth" href="/UniversityManagementSystem/index.html">Return to Home</a>
 															</div>
-										   <p>| Design by Wang Fang Fei</p>
+										   <p>| Design by Wakjira Tesama</p>
 										</div>
 									<!--footer section end-->
 									<!--/404-->

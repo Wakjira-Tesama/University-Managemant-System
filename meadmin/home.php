@@ -25,7 +25,7 @@ else
 <html>
 
 <head>
-	<title>Jiangxi Normal University</title>
+	<title>ODA Special Boarding School</title>
 
 	<link rel="shortcut icon" type="image" href="/UniversityManagementSystem/Picture/logo1.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -104,7 +104,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				
 				<!--footer section start-->
 				<footer>
-					<p>|| Design and Develop By Shamima Aktar</p>
+					<p>|| Design and Develop By Wakjira Tesama</p>
 				</footer>
 				<!--footer section end-->
 			</div>
